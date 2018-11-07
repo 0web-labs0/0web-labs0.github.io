@@ -1,0 +1,25 @@
+body {
+    background: #8FBC8F;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
+
+
+}
+.circle_orange{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    z-index: 1;
+    background: #FFA500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle_black{
+    height: 50%;
+    width: 50%;
+    background: #000000;
+    border-radius: 50%;
+}

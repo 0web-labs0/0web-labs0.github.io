@@ -1,0 +1,11 @@
+body {
+  text-align: right;
+  background: #F5F5F5;
+}
+.title {
+  text-transform: uppercase;
+  color: #db6d70;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Serif;
+}

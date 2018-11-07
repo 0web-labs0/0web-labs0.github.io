@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Запись на курсы</title>
+</head>
+<body>
+<h1>Задача 9. "Запись на курсы"</h1>
+<hr>
+<form action="form.php" method="post">
+
+    <label for="name">Имя:</label><br>
+    <input type="text" id="name"><br><br>
+    Языки программирования <br>
+    <input id="form-radio__c++" type="radio" value="c++"  name="lang"><label for="form-radio__c++">C++</label><br>
+    <input id="form-radio__php" type="radio" value="php" name="lang"><label for="form-radio__php">PHP</label><br>
+    <input id="form-radio__Python" type="radio" value="Python" name="lang"><label for="form-radio__Python">Python
+</label><br><br>
+    <label for="info">Дополнительная информация</label><br>
+    <textarea id="info" placeholder="Расскажите насколько вы знакомы с языками программирования и представляете ли что это такое ?"></textarea>
+    <br><br>
+    <label for="secret">Секретное слово</label><br>
+    <input id="secret" type="password"><br><br>
+    <input type="submit" value="Отправить">
+    <input type="reset" value="Очистить">
+</form>
+<hr>
+</body>
+</html>

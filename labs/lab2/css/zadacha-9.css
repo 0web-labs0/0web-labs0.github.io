@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    background: black;
+    padding: 15px;
+    margin-top: 100px;
+}
+.reg {
+    background: white;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 24px;
+    color: #2F2C33;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+.Close{
+    width: 25px;
+    height: 25px;
+    border: solid 1px darkgray;
+    border-radius: 5px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
+
+}
+.line{
+    width: 15px;
+    height: 3px;
+    background: #CCCCCC ;
+    transform: rotate(45deg);
+    position: absolute;
+}
+.line2{
+    width: 15px;
+    height: 3px;
+    background: #CCCCCC ;
+    transform: rotate(-45deg);
+    position: absolute;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+input{
+    margin-left: 15px;
+}
+.name{
+    padding: 4px 90px 4px 10px;
+    border-radius: 5px;
+    margin-right: 15px;
+    border: 1px solid gray;
+}
+.button {
+    padding: 4px 7px;
+    border-radius: 5px;
+    background: #52AFD1;
+    border: solid 1px #52AFD1;
+    color: white;
+}
+select {
+    margin-left: 15px;
+    padding: 4px 170px 4px 10px;
+    border-radius: 5px;
+}
+hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.button-o{
+    background: transparent;
+    color: #9c9c9c;
+    border: solid 1px gray;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.next{
+    margin-right: 15px;
+}

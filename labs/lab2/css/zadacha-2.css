@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding-top: 15px;
+    font-size: 15px;
+    border-left: solid 15px rgba(0,0,0,0.2);
+}
+nav {
+    display: flex;
+    align-items: center;
+
+
+
+}
+ul {
+    margin-left: 30px;
+    list-style-type: none;
+    border-top: black dotted 3px;
+
+
+}
+li {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 25px;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+}
+a:hover{
+    transition: 0.5s;
+    color: white;
+    background: #DF3B49;
+
+
+
+}
+a:not(:hover){
+    transition: 0.5s;
+    font-size: 15px;
+}
