@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: comfortaa;
+  background: url("../img/bg.jpg"); }
+
+.small {
+  margin-top: 15px;
+  font-size: 24px;
+  font-style: italic;
+  text-shadow: none; }
+
+.main {
+  padding-top: 30px;
+  line-height: 22px; }
+  .main-title {
+    font-size: 30px;
+    text-align: center;
+    color: #3b3b3b;
+    line-height: 27px;
+    text-shadow: 0px 9px 9px rgba(0, 0, 0, 0.4); }
+  .main-blocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 30px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .main-block {
+    margin-top: 50px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    background: white;
+    height: 150px;
+    width: 30%;
+    -webkit-box-shadow: 0px 5px 20px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 5px 20px 3px rgba(0, 0, 0, 0.4);
+    border-top: solid 5px transparent;
+    position: relative;
+    min-width: 330px; }
+    .main-block::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      width: 0%;
+      height: 0px;
+      -webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.5);
+      background: black;
+      -webkit-transform: scale(1);
+      transform: scale(1); }
+    .main-block:hover {
+      -webkit-transition: 1s;
+      transition: 1s;
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      z-index: 10; }
+    .main-block:not(:hover) {
+      -webkit-transition: 1s;
+      transition: 1s;
+      -webkit-transform: scale(1);
+      transform: scale(1); }
+    .main-block-labs {
+      width: 25%;
+      height: 100px;
+      min-width: 140px; }
+    .main-block-back {
+      display: block;
+      width: 10%;
+      height: 50px; }
+    .main-block a {
+      height: 100%;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-decoration: none;
+      color: black; }
